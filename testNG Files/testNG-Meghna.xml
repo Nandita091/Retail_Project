@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite30Apr">
+
+<listeners>
+<listener class-name="ExtentReports.TestListener" />
+</listeners>
+
+  <test thread-count="5" name="SmokeTest">
+    
+    <classes>
+      <!-- This is a comment -->
+      <class name="RetailShopTestcases.Retail_Admin_Retuns_AddReturns"/>
+      <class name="RetailShopTestcases.Retail_Admin_Returns_Filter"/>
+      <class name="RetailShopTestcases.Retail_Admin_Returns_Delete"/>
+      <class name="RetailShopTestcases.Retail_Admin_Returns_Edit"/>
+      
+      
+      
+    </classes>
+  </test> <!-- Smoke Test -->
+ </suite> 

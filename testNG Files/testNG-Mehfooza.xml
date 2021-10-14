@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name = "suiteorder" >
+<listeners>
+<listener class-name="ExtentReports.TestListener" />
+</listeners>
+   <test name = "Test">
+      <classes>
+         <class name = "retailTestcases.AddProduct"/>
+         <class name = "retailTestcases.FilterProduct"/>
+         <class name = "retailTestcases.DeleteProduct"/>
+         <class name = "retailTestcases.RetailUserWishlistTestcases"/>
+         
+           
+      </classes>
+   </test>
+   
+</suite>

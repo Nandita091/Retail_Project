@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite30Apr">
+<listeners>
+<listener class-name="ExtentReports.TestListener" />
+</listeners>
+  <test thread-count="5" name="SanityTest">
+    <classes>
+      <class name="testcases.AddReview"/>
+      <class name="testcases.AdminLogin"/>
+      <class name="testcases.DeleteReview"/>
+      <class name="testcases.Filter"/>
+      <class name="testcases.UserAccont"/>
+      
+      
+    </classes>
+  </test> <!-- Smoke Test -->
+ </suite> 

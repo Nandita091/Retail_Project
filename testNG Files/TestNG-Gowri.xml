@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Suite11Oct">
+<listeners>
+<listener class-name="ExtentReports.TestListener" />
+</listeners>
+	 <!-- <groups>
+		<run>
+			<include name="SmokeTests" />
+		</run>
+	</groups>  -->
+    <test thread-count="5" name="TodaysTest">
+    	<classes>
+    		<class name="retailpages.AddCouponstest" />
+    		<class name="retailpages.deleteConfirm" />
+ 
+    	</classes>
+    
+    </test>
+</suite>
